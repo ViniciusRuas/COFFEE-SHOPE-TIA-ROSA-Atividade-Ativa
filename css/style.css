@@ -31,6 +31,31 @@ p{
 }
 #estrutura #menu ul{
     padding: 0px;/*espaçamento*/
-
-
+}
+#estrutura #menu li{
+    /* retirar marcadores*/
+    list-style: none;
+    /*alinhar menu horizontal*/
+    display: inline-block;
+    width: 336px;
+    text-align: center;
+    padding: 0px 0px;
+}
+#estrutura #menu a{
+    /* a href*/
+    font-family: Arial;
+    font-size: 15pt;
+    text-decoration: none;
+    color: black;
+    background-color: #ff8;
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0px;
+}
+#estrutura #menu a:hover{ /*animação a passar o mouse*/
+    background-color: black;
+    color: aqua;
+}
+#estrutura #menu a.atual{ /*menu selecionado*/
+    background-color: #f90 ;
 }
