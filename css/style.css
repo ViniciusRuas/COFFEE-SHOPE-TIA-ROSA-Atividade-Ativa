@@ -1,0 +1,26 @@
+/*Zerando a pagina do navegador*/
+*{
+     margin: 0px;
+}
+#estrutura{
+
+     background-color: white; /*cor de fundo*/
+     width: 90%; /*largura*/
+     margin-left: auto; /*margin a esquerda*/
+     margin-right: auto;/* margin a direita*/
+}
+#estrutura #titulo{
+    background-image: url("../imagens/Coffee_Cup_511628_1920x1080.jpg"); /*imagem do titulo*/
+    background-position: -400px - 380px; /*pasição x, y*/
+    color: white;
+    font-size: 15pt;
+    font-family: Arial;
+    padding-top: 10px;/*espaçamento no topo*/
+    padding-left: 10px;/*espaçamento a esquerda*/
+    height: 350; /*altura seção*/
+}
+/*classe css, titulo*/
+.titulo{
+    margin-top: 400px;
+
+}
