@@ -22,5 +22,15 @@
 /*classe css, titulo*/
 .titulo{
     margin-top: 400px;
+}
+p{
+    text-align: justify; /*paragrafo*/
+    text-indent: 20px;/*recuo*/
+    font-family: Century Gothic;
+    font-size: 14pt;
+}
+#estrutura #menu ul{
+    padding: 0px;/*espaçamento*/
+
 
 }
