@@ -11,17 +11,17 @@
 }
 #estrutura #titulo{
     background-image: url("../imagens/Coffee_Cup_511628_1920x1080.jpg"); /*imagem do titulo*/
-    background-position: -400px - 380px; /*pasição x, y*/
+    background-position: -200px - 380px; /*pasição x, y*/
     color: white;
-    font-size: 15pt;
+    font-size: 30pt;
     font-family: Arial;
     padding-top: 10px;/*espaçamento no topo*/
-    padding-left: 10px;/*espaçamento a esquerda*/
+    padding-left: 20px;/*espaçamento a esquerda*/
     height: 350; /*altura seção*/
 }
 /*classe css, titulo*/
 .titulo{
-    margin-top: 400px;
+    margin-top: 216px;
 }
 p{
     text-align: justify; /*paragrafo*/
@@ -46,16 +46,54 @@ p{
     font-family: Arial;
     font-size: 15pt;
     text-decoration: none;
-    color: black;
-    background-color: #ff8;
+    color: white;
+    background-color: #512602;
     width: 100%;
     display: inline-block;
     padding: 10px 0px;
 }
 #estrutura #menu a:hover{ /*animação a passar o mouse*/
     background-color: black;
-    color: aqua;
+    color: #fff;
 }
-#estrutura #menu a.atual{ /*menu selecionado*/
-    background-color: #f90 ;
+ #estrutura #conteudo h2{
+    font-family: Arial;
+    font-size: 14pt;
+    padding: 10px;
+}
+/*formatação de texto*/
+#estrutura #conteudo .textohome{
+   font-family: 'Times New Roman'; 
+   font-size: 16pt;
+   line-height: 16pt;
+   padding-left: 20px;
+}
+#rodape{
+    padding:20px 0px;
+    font-family: Arial;
+    background-color: #512602;
+    color: #fff;
+    height: 60px;
+    bottom: 0; width: 100%;
+    text-align: center;    
+}
+#estrutura #conteudo .imghome img{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+#estrutura #conteudo .imghome{
+    text-align: center;
+}
+/*rodapé para baixo*/
+.abaixar{
+    clear: both;
+}
+#estrutura #conteudo .img1home img{
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+}
+#estrutura #conteudo .img1home{
+    text-align: center;
 }
